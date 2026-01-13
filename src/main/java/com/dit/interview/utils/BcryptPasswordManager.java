@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  */
 public class BcryptPasswordManager  {
 
-    private static final BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(50);
+    private static final BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(10);
 
 
     /**
